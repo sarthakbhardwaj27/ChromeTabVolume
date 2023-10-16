@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Volume Control",
+    "version": "1.0",
+    "description": "Change the volume of each tab individually.",
+    "permissions": [
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "index.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
